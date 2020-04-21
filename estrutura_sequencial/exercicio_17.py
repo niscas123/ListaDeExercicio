@@ -12,7 +12,7 @@ preco_galao = 25;
 if(entrada == "L"):
     latas = litros / capacidade_litro;
     preco_litro = latas * preco_litro;
-    print("O preço do galão ficará por: R$%.2f" % preco_litro);
+    print("O preço do galão ficará por: R$%.2f" %preco_litro);
 
 elif(entrada == "G"):
     galao = litros_galao / capacidade_litro;
